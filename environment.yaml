@@ -1,0 +1,10 @@
+name: microbiome-pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - snakemake
+  - kneaddata
+  - bioconductor-dada2
+  - r-base
